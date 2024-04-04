@@ -1396,42 +1396,39 @@ a {
     height: 30px;
     background-color: var(--section-background);
     margin-bottom: 20px;
+    transition: var(--main-transition);
 }
 
-.ourskills .des .range-1::before {
-    content: "";
-    position: absolute;
-    left: 0;
+.ourskills .des .range-1 {
+    display: block;
     width: 80%;
     height: 100%;
     background-color: var(--main-color);
+    transition: var(--main-transition);
 }
 
-.ourskills .des .range-2::before {
-    content: "";
-    position: absolute;
-    left: 0;
+.ourskills .des .range-2 {
+    display: block;
     width: 85%;
     height: 100%;
     background-color: var(--main-color);
+    transition: var(--main-transition);
 }
 
-.ourskills .des .range-3::before {
-    content: "";
-    position: absolute;
-    left: 0;
+.ourskills .des .range-3 {
+    display: block;
     width: 70%;
     height: 100%;
     background-color: var(--main-color);
+    transition: var(--main-transition);
 }
 
-.ourskills .des .range-4::before {
-    content: "";
-    position: absolute;
-    left: 0;
+.ourskills .des .range-4 {
+    display: block;
     width: 80%;
     height: 100%;
     background-color: var(--main-color);
+    transition: var(--main-transition);
 }
 
 @media (max-width: 768px) {
